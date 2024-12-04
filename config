@@ -1,0 +1,6 @@
+[DEFAULT]
+user=ocid1.user.oc1..aaaaaaaabkw3bmwwvbmrxdf6t2nrr5lfl6cyu3i2twwok3gt5eot7jmfzh2a
+fingerprint=d2:9c:98:92:6f:25:5d:05:12:48:e6:9f:bd:0b:03:b2
+tenancy=ocid1.tenancy.oc1..aaaaaaaaxep25wialnelw4vrqqdz2gnegg4rhpjstsxkdkxyhbw6xzh53gta
+region=sa-vinhedo-1
+key_file=oci_private_key.pem
