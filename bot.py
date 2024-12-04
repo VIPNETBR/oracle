@@ -5,7 +5,7 @@ subnetId = 'ocid1.subnet.oc1.sa-vinhedo-1.aaaaaaaaqandq6vdcrniiphe2xvmmmffktrnda
 ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzI2tIzcu4JOHye3gKgBq0vQQQSA8b44j0/YsW2Z7DwiIIMheEYTfWql7TtZfeU+J8QgmVM/1ED/+cKIPDgaFGS16CKFId7lqWhjJ6B/56kYcpYuQKDAu9Zsr7u1BX+bS1+Ftfb94mbVLKz1t4CziUx39lXzQtEpkc6jdhyRmzpar5VLIsVL+Ta1KWNVUrX91LbJivFBhywLrEW9gP4MUUcbZYEEzfRWmlIHFFLL1ta/NB1oEcwLe0smCAaF2aS4WegFvBTbhxvHq8p90KDNe0RC0f1Wvsn8bYJ0WOH8w6+QLL2xUb79yuuqaGLbluNh+aPTuwSWKC2SguF5LdZYIR ssh-key-2024-12-04"
 
 imageId = "ocid1.image.oc1.sa-vinhedo-1.aaaaaaaaoduowez2hlinzqmyep3ad6hgapib5pxkppqjalmu5txw7mexttmq"
-boot_volume_size_in_gbs=50
+boot_volume_size_in_gbs="50"
 boot_volume_id="xxx"
 
 bot_token = "5223003319:AAHc0SmFh-MBAWRbX0NhTy1qHu7Lpk1og1o"
