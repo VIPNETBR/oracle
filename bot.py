@@ -1,11 +1,4 @@
-availabilityDomains = ["Qlvp:SA-VINHEDO-1-AD-1"]
-displayName = 'instance-20241204-1521'
-compartmentId = 'ocid1.tenancy.oc1..aaaaaaaaxep25wialnelw4vrqqdz2gnegg4rhpjstsxkdkxyhbw6xzh53gta'
-subnetId = 'ocid1.subnet.oc1.sa-vinhedo-1.aaaaaaaaqandq6vdcrniiphe2xvmmmffktrndaxdqg7gcyllah4yq6xfudgq'
-ssh_authorized_keys = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCzI2tIzcu4JOHye3gKgBq0vQQQSA8b44j0/YsW2Z7DwiIIMheEYTfWql7TtZfeU+J8QgmVM/1ED/+cKIPDgaFGS16CKFId7lqWhjJ6B/56kYcpYuQKDAu9Zsr7u1BX+bS1+Ftfb94mbVLKz1t4CziUx39lXzQtEpkc6jdhyRmzpar5VLIsVL+Ta1KWNVUrX91LbJivFBhywLrEW9gP4MUUcbZYEEzfRWmlIHFFLL1ta/NB1oEcwLe0smCAaF2aS4WegFvBTbhxvHq8p90KDNe0RC0f1Wvsn8bYJ0WOH8w6+QLL2xUb79yuuqaGLbluNh+aPTuwSWKC2SguF5LdZYIR ssh-key-2024-12-04"
-
-imageId = "ocid1.image.oc1.sa-vinhedo-1.aaaaaaaaoduowez2hlinzqmyep3ad6hgapib5pxkppqjalmu5txw7mexttmq"
-boot_volume_size_in_gbs="50"
+/56kYcpYuQKDAu9Zsr7u1BX+bS1+Ftfb94mbVLKz1t4CziUx39lXzQtEpkc6jdhyRmzpar5VLIsVL+
 boot_volume_id="xxx"
 
 bot_token = "5223003319:AAHc0SmFh-MBAWRbX0NhTy1qHu7Lpk1og1o"
@@ -52,7 +45,7 @@ cloud_name = identity_client.get_tenancy(tenancy_id=compartmentId).data.name
 email = identity_client.list_users(compartment_id=compartmentId).data[0].email
 
 message = f"Instance to create: VM.Standard.A1.Flex - {ocpus} ocpus - {memory_in_gbs} GB"
-logging.info(message)
+logging.info(message) GO
 
 volume_client = oci.core.BlockstorageClient(config)
 
